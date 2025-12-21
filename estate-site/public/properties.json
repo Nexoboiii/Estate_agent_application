@@ -1,0 +1,116 @@
+{
+    "properties": [
+        {
+            "id": "prop1",
+            "type": "House",
+            "bedrooms": 3,
+            "price": 750000,
+            "tenure": "Freehold",
+            "description": "Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior...",
+            "location": "Petts Wood Road, Petts Wood, Orpington BR5",
+            "picture": "images/prop1pic1small.jpg",
+            "url": "properties/prop1.html",
+            "added": {
+                "month": "October",
+                "day": 12,
+                "year": 2022
+            }
+        },
+        {
+            "id": "prop2",
+            "type": "Flat",
+            "bedrooms": 2,
+            "price": 399995,
+            "tenure": "Freehold",
+            "description": "Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. <br>The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.<br>This apartment being only five years old, is still under a 10 year building guarantee...",
+            "location": "Crofton Road Orpington BR6",
+            "picture": "images/prop2pic1small.jpg",
+            "url": "properties/prop2.html",
+            "added": {
+                "month": "September",
+                "day": 14,
+                "year": 2022
+            }
+        },
+        {
+            "id": "prop3",
+            "type": "Villa",
+            "bedrooms": 4,
+            "price": 950000,
+            "tenure": "Freehold",
+            "description": "Stunning four bedroom modern villa in a gated development, just 0.6 miles from Beckenham Junction station with swift London links. Open-plan ground floor features 22' x 15' kitchen/diner with island, living area with media wall, and bi-fold doors to landscaped garden. Master suite with walk-in wardrobe and en-suite; three further bedrooms, family bathroom, and study. Extras: integral garage, EV charging point, air source heat pump, and 10-year new build warranty.",
+            "location": "Lennard Road, Beckenham BR3",
+            "picture": "images/prop3pic1small.jpg",
+            "url": "properties/prop3.html",
+            "added": {
+                "month": "November",
+                "day": 5,
+                "year": 2022
+            }
+        },
+        {
+            "id": "prop4",
+            "type": "Studio",
+            "bedrooms": 1,
+            "price": 225000,
+            "tenure": "Leasehold",
+            "description": "Contemporary studio apartment perfect for first-time buyers, located moments from Hayes station and village high street. Spacious open-plan living/bedroom/kitchen (16' x 12') with fitted kitchenette including oven, hob, and washer/dryer. Modern shower room with rainfall shower. Benefits: private balcony, communal gardens, cycle storage, video entry, and 150-year lease. Ideal investment with strong rental demand.",
+            "location": "Station Approach, Hayes BR2",
+            "picture": "images/prop4pic1small.jpg",
+            "url": "properties/prop4.html",
+            "added": {
+                "month": "August",
+                "day": 28,
+                "year": 2022
+            }
+        },
+        {
+            "id": "prop5",
+            "type": "Bungalow",
+            "bedrooms": 3,
+            "price": 625000,
+            "tenure": "Freehold",
+            "description": "Extended three bedroom detached bungalow in a peaceful setting near Farnborough Village and mainline station. Large lounge with feature fireplace, 17' x 10' kitchen/breakfast room, dining room, and shower room. All bedrooms double-sized with master en-suite. Highlights: 100ft south-west garden, double garage, block-paved driveway, solar panels, and versatile loft space with dormer windows.",
+            "location": "Farnborough Hill, Farnborough BR6",
+            "picture": "images/prop5pic1small.jpg",
+            "url": "properties/prop5.html",
+            "added": {
+                "month": "October",
+                "day": 20,
+                "year": 2022
+            }
+        },
+        {
+            "id": "prop6",
+            "type": "Terraced House",
+            "bedrooms": 2,
+            "price": 425000,
+            "tenure": "Freehold",
+            "description": "Charming two bedroom Victorian terraced house close to Shortlands station (0.3 miles) and parks. Through-lounge/diner, refitted kitchen with breakfast bar, ground floor bathroom, and 60ft garden with decking. Upstairs: two double bedrooms and loft access. Features: period details preserved, gas central heating, double glazing, on-street permit parking, and no onward chain.",
+            "location": "Shortlands Road, Bromley BR2",
+            "picture": "images/prop6pic1small.jpg",
+            "url": "properties/prop6.html",
+            "added": {
+                "month": "December",
+                "day": 2,
+                "year": 2022
+            }
+        },
+        {
+            "id": "prop7",
+            "type": "Studio",
+            "bedrooms": 1,
+            "price": 195000,
+            "tenure": "Leasehold",
+            "description": "Top-floor studio in a well-maintained 1930s block near Eltham High Street and rail links. Bright open-plan space (14' x 11') with modern kitchen area (integrated fridge, oven), double bedroom area, separate shower room, and ample storage. Views over communal gardens. Includes: lift access, resident parking, low service charge, share of freehold, and chain-free sale. Great for commuters or buy-to-let.",
+            "location": "Well Hall Road, Eltham SE9",
+            "picture": "images/prop7pic1small.jpg",
+            "url": "properties/prop7.html",
+            "added": {
+                "month": "September",
+                "day": 22,
+                "year": 2022
+            }
+        }
+    ]
+}
