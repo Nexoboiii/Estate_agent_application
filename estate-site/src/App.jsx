@@ -4,7 +4,7 @@ import Header from './Componenets/Header.jsx'
 import Footer from './Componenets/Footer.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <div className="app-wrapper">
