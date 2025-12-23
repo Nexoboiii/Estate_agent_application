@@ -7,14 +7,14 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <div className="app-wrapper">
       <Header />
       <main className="content-area">
-        {/* This is where your Search Page or Property Detail Page will render */}
+        {/* This is where the Search Page or Property Detail Page will render */}
         
       </main>
       <Footer />
-    </>
+    </div>
   )
 }
 
