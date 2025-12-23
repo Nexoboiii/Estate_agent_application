@@ -10,7 +10,6 @@ const Header = () => {
         </div>
         <nav className="nav-links">
           <a href="/" className="active">Search</a>
-          <a href="/favourites">Favourites</a>
         </nav>
       </div>
     </header>
