@@ -10,6 +10,9 @@
             "location": "Petts Wood Road, Petts Wood, Orpington BR5",
             "picture": "images/prop1pic1small.jpg",
             "url": "properties/prop1.html",
+            "mapUrl": "https://www.google.com/maps?q=Petts%20Wood%20Road,%20Petts%20Wood,%20Orpington%20BR5",
+            "floorPlan": "images/prop1floorplan.jpg",
+            "gallery": ["images/prop1gallery1.jpg", "images/prop1gallery2.jpg", "images/prop1gallery3.jpg"],
             "added": {
                 "month": "October",
                 "day": 12,
@@ -26,6 +29,9 @@
             "location": "Crofton Road Orpington BR6",
             "picture": "images/prop2pic1small.jpg",
             "url": "properties/prop2.html",
+            "mapUrl": "https://www.google.com/maps?q=Crofton%20Road%20Orpington%20BR6",
+            "floorPlan": "images/prop2floorplan.jpg",
+            "gallery": ["images/prop2gallery1.jpg", "images/prop2gallery2.jpg"],
             "added": {
                 "month": "September",
                 "day": 14,
@@ -42,6 +48,9 @@
             "location": "Lennard Road, Beckenham BR3",
             "picture": "images/prop3pic1small.jpg",
             "url": "properties/prop3.html",
+            "mapUrl": "https://www.google.com/maps?q=Lennard%20Road,%20Beckenham%20BR3",
+            "floorPlan": "images/prop3floorplan.jpg",
+            "gallery": ["images/prop3gallery1.jpg", "images/prop3gallery2.jpg", "images/prop3gallery3.jpg", "images/prop3gallery4.jpg"],
             "added": {
                 "month": "November",
                 "day": 5,
@@ -58,6 +67,9 @@
             "location": "Station Approach, Hayes BR2",
             "picture": "images/prop4pic1small.jpg",
             "url": "properties/prop4.html",
+            "mapUrl": "https://www.google.com/maps?q=Station%20Approach,%20Hayes%20BR2",
+            "floorPlan": "images/prop4floorplan.jpg",
+            "gallery": ["images/prop4gallery1.jpg"],
             "added": {
                 "month": "August",
                 "day": 28,
@@ -74,6 +86,9 @@
             "location": "Farnborough Hill, Farnborough BR6",
             "picture": "images/prop5pic1small.jpg",
             "url": "properties/prop5.html",
+            "mapUrl": "https://www.google.com/maps?q=Farnborough%20Hill,%20Farnborough%20BR6",
+            "floorPlan": "images/prop5floorplan.jpg",
+            "gallery": ["images/prop5gallery1.jpg", "images/prop5gallery2.jpg"],
             "added": {
                 "month": "October",
                 "day": 20,
@@ -90,6 +105,9 @@
             "location": "Shortlands Road, Bromley BR2",
             "picture": "images/prop6pic1small.jpg",
             "url": "properties/prop6.html",
+            "mapUrl": "https://www.google.com/maps?q=Shortlands%20Road,%20Bromley%20BR2",
+            "floorPlan": "images/prop6floorplan.jpg",
+            "gallery": ["images/prop6gallery1.jpg", "images/prop6gallery2.jpg", "images/prop6gallery3.jpg"],
             "added": {
                 "month": "December",
                 "day": 2,
@@ -106,6 +124,9 @@
             "location": "Well Hall Road, Eltham SE9",
             "picture": "images/prop7pic1small.jpg",
             "url": "properties/prop7.html",
+            "mapUrl": "https://www.google.com/maps?q=Well%20Hall%20Road,%20Eltham%20SE9",
+            "floorPlan": "images/prop7floorplan.jpg",
+            "gallery": ["images/prop7gallery1.jpg"],
             "added": {
                 "month": "September",
                 "day": 22,

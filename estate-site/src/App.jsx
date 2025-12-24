@@ -9,19 +9,24 @@ import PropertyPage from './Componenets/PropertyPage.jsx'
 function App() {
 
   return (
-    <div className="app-wrapper">
-      <Header />
-      <main className="content-area">
-        {/* This is where the Search Page or Property Detail Page will render */}
-        
-        <Routes>
+    // Wrap the app with BrowserRouter for client-side routing
+    <BrowserRouter>
+      <div className="app-wrapper">
+        {/* Header component for navigation */}
+        <Header />
+        <main className="content-area">
+          {/* Define routes for different pages */}
+          <Routes>
+            {/* Route for the search page (home) */}
             <Route path="/" element={<SearchBox />} />
+            {/* Route for individual property details, with dynamic ID */}
             <Route path="/property/:id" element={<PropertyPage />} />
           </Routes>
-        
-      </main>
-      <Footer />
-    </div>
+        </main>
+        {/* Footer component */}
+        <Footer />
+      </div>
+    </BrowserRouter>
   )
 }
 
