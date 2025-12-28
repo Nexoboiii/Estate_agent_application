@@ -60,6 +60,11 @@ function SearchBox() {
         setFavorites(prev => prev.includes(id) ? prev.filter(f => f !== id) : [...prev, id])
     }
 
+    // Function to clear all favorites
+    const clearFavorites = () => {
+        setFavorites([])
+    }
+
     // Handler for starting a drag operation on a property
     const handleDragStart = (e, id) => {
         e.dataTransfer.setData('text/plain', id)
@@ -118,7 +123,10 @@ function SearchBox() {
             </form>
             {/* Favorites section with drop zone */}
             <div className="favorites-section" onDrop={handleDrop} onDragOver={handleDragOver}>
-                <h3>Favorites (Drag properties here or click heart)</h3>
+                <div className="favorites-header">
+                    <h3>Favorites (Drag properties here or click heart)</h3>
+                    <button onClick={clearFavorites} className="clear-favorites-btn">Clear All</button>
+                </div>
                 <div className="favorites-list">
                     {favoriteProperties.map(prop => (
                         <div key={prop.id} className="property-item favorite-item">

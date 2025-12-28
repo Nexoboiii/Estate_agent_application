@@ -66,6 +66,26 @@
   min-height: 100px;
 }
 
+.favorites-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.clear-favorites-btn {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.clear-favorites-btn:hover {
+  background: #c82333;
+}
+
 .favorites-list {
   display: flex;
   flex-wrap: wrap;
