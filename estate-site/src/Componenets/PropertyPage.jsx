@@ -36,9 +36,9 @@ function PropertyPage() {
         )
       case 'floorplan':
         return (
-          <div>
+          <div className="floor-plan">
             <h3>Floor Plan</h3>
-            <img src={`/${property.floorPlan}`} alt="Floor Plan" className="floor-plan" />
+            <img src={`/${property.floorPlan}`} alt="Floor Plan" />
           </div>
         )
       case 'map':

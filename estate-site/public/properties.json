@@ -12,7 +12,7 @@
             "url": "properties/prop1.html",
             "mapUrl": "https://www.google.com/maps?q=Petts%20Wood%20Road,%20Petts%20Wood,%20Orpington%20BR5",
             "floorPlan": "Images/prop1floorplan.jpg",
-            "gallery": ["Images/prop1gallery1.jpeg", "Images/prop1gallery2.jpg", "Images/prop1gallery3.jpg"],
+            "gallery": ["Images/prop1gallery1.jpeg", "Images/prop1gallery2.jpeg", "Images/prop1gallery3.jpeg", "Images/prop1gallery4.jpeg", "Images/prop1gallery5.jpeg", "Images/prop1gallery6.jpeg", "Images/prop1gallery7.jpeg", "Images/prop1gallery8.jpeg"],
             "added": {
                 "month": "October",
                 "day": 12,
