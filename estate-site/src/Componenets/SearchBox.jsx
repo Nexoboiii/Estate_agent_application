@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import SearchWidget from './SearchWidget.jsx'
 
 function SearchBox() {
     // State for storing all properties fetched from JSON
@@ -49,12 +50,6 @@ function SearchBox() {
         setFilteredProperties(filtered)
     }, [filters, properties])
 
-    // Handler for updating filter state when form inputs change
-    const handleFilterChange = (e) => {
-        const { name, value } = e.target
-        setFilters(prev => ({ ...prev, [name]: value }))
-    }
-
     // Function to toggle a property's favorite status
     const toggleFavorite = (id) => {
         setFavorites(prev => prev.includes(id) ? prev.filter(f => f !== id) : [...prev, id])
@@ -91,36 +86,7 @@ function SearchBox() {
         <div>
             <h2>Property Search</h2>
             {/* Search form with filters */}
-            <form className="search-form">
-                <div className="form-group">
-                    <label>Type:</label>
-                    <select name="type" value={filters.type} onChange={handleFilterChange}>
-                        <option value="">All</option>
-                        <option value="House">House</option>
-                        <option value="Flat">Flat</option>
-                        <option value="Villa">Villa</option>
-                        <option value="Studio">Studio</option>
-                        <option value="Bungalow">Bungalow</option>
-                        <option value="Terraced House">Terraced House</option>
-                    </select>
-                </div>
-                <div className="form-group">
-                    <label>Min Price:</label>
-                    <input type="number" name="minPrice" value={filters.minPrice} onChange={handleFilterChange} />
-                </div>
-                <div className="form-group">
-                    <label>Max Price:</label>
-                    <input type="number" name="maxPrice" value={filters.maxPrice} onChange={handleFilterChange} />
-                </div>
-                <div className="form-group">
-                    <label>Min Bedrooms:</label>
-                    <input type="number" name="minBedrooms" value={filters.minBedrooms} onChange={handleFilterChange} />
-                </div>
-                <div className="form-group">
-                    <label>Location:</label>
-                    <input type="text" name="location" value={filters.location} onChange={handleFilterChange} />
-                </div>
-            </form>
+            <SearchWidget filters={filters} setFilters={setFilters} />
             {/* Favorites section with drop zone */}
             <div className="favorites-section" onDrop={handleDrop} onDragOver={handleDragOver}>
                 <div className="favorites-header">
@@ -136,7 +102,7 @@ function SearchBox() {
                                 <p>£{prop.price.toLocaleString()}</p>
                                 <p>{prop.location}</p>
                                 <button onClick={() => toggleFavorite(prop.id)}>❤️ Remove</button>
-                                <Link to={`/property/${prop.id}`}>View Details</Link>
+                                <Link to={`/property/${prop.id}`} className="view-details-btn">View Details</Link>
                             </div>
                         </div>
                     ))}
@@ -156,7 +122,7 @@ function SearchBox() {
                             <button onClick={() => toggleFavorite(prop.id)}>
                                 {favorites.includes(prop.id) ? '❤️' : '🤍'}
                             </button>
-                            <Link to={`/property/${prop.id}`}>View Details</Link>
+                            <Link to={`/property/${prop.id}`} className="view-details-btn">View Details</Link>
                         </div>
                     </div>
                 ))}
