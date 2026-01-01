@@ -2,9 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>estate-site</title>
+    <!-- Content Security Policy to prevent XSS and other injection attacks -->
+    <!-- Restricts content sources to local resources and allows necessary inline styles -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self'; connect-src 'self';" />
+    <title>NexusDream Homes</title>
   </head>
   <body>
     <div id="root"></div>
