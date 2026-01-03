@@ -38,7 +38,7 @@ function PropertyPage() {
         return (
           <div className="floor-plan">
             <h3>Floor Plan</h3>
-            <img src={`/${property.floorPlan}`} alt="Floor Plan" />
+            <img src={import.meta.env.BASE_URL + property.floorPlan} alt="Floor Plan" />
           </div>
         )
       case 'map':
@@ -59,7 +59,7 @@ function PropertyPage() {
       <Link to="/">Back to Search</Link>
       <h2>{property.type} - {property.bedrooms} bedrooms</h2>
       {/* Display property image */}
-      <img src={`/${property.picture}`} alt={property.type} />
+      <img src={import.meta.env.BASE_URL + property.picture} alt={property.type} />
       {/* Display property details */}
       <p><strong>Price:</strong> £{property.price.toLocaleString()}</p>
       <p><strong>Location:</strong> {property.location}</p>
