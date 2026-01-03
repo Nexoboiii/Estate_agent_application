@@ -20,7 +20,7 @@ function Gallery({ images }) {
       <h3>Gallery</h3>
       <div className="gallery-carousel">
         <button className="carousel-btn" onClick={prevImage}>&lt;</button>
-        <img src={`/${images[currentImageIndex]}`} alt={`Gallery ${currentImageIndex + 1}`} className="carousel-image" />
+        <img src={import.meta.env.BASE_URL + images[currentImageIndex]} alt={`Gallery ${currentImageIndex + 1}`} className="carousel-image" />
         <button className="carousel-btn" onClick={nextImage}>&gt;</button>
       </div>
       <div className="carousel-indicators">

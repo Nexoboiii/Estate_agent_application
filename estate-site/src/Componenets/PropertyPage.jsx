@@ -12,7 +12,7 @@ function PropertyPage() {
 
   // Effect to fetch the specific property data based on ID
   useEffect(() => {
-    fetch('/properties.json')
+    fetch('./properties.json')
       .then(response => response.json())
       .then(data => {
         // Find the property that matches the ID

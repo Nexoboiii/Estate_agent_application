@@ -20,7 +20,7 @@ function SearchBox() {
 
     // Effect to fetch properties data on component mount
     useEffect(() => {
-        fetch('/properties.json')
+        fetch('./properties.json')
             .then(response => response.json())
             .then(data => {
                 setProperties(data.properties)
@@ -96,7 +96,7 @@ function SearchBox() {
                 <div className="favorites-list">
                     {favoriteProperties.map(prop => (
                         <div key={prop.id} className="property-item favorite-item">
-                            <img src={`/${prop.picture}`} alt={prop.type} />
+                            <img src={import.meta.env.BASE_URL + prop.picture} alt={prop.type} />
                             <div className="property-info">
                                 <h3>{prop.type} - {prop.bedrooms} bedrooms</h3>
                                 <p>£{prop.price.toLocaleString()}</p>
@@ -113,7 +113,7 @@ function SearchBox() {
             <div className="property-list">
                 {filteredProperties.map(prop => (
                     <div key={prop.id} className="property-item" draggable onDragStart={(e) => handleDragStart(e, prop.id)}>
-                        <img src={`/${prop.picture}`} alt={prop.type} />
+                        <img src={import.meta.env.BASE_URL + prop.picture} alt={prop.type} />
                         <div className="property-info">
                             <h3>{prop.type} - {prop.bedrooms} bedrooms</h3>
                             <p>£{prop.price.toLocaleString()}</p>
