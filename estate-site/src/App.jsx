@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
 import Header from './Componenets/Header.jsx'
 import Footer from './Componenets/Footer.jsx'
@@ -9,8 +9,8 @@ import PropertyPage from './Componenets/PropertyPage.jsx'
 function App() {
 
   return (
-    // Wrap the app with BrowserRouter for client-side routing
-    <BrowserRouter>
+    // Wrap the app with HashRouter for client-side routing
+    <HashRouter>
       <div className="app-wrapper">
         {/* Header component for navigation */}
         <Header />
@@ -26,7 +26,7 @@ function App() {
         {/* Footer component */}
         <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
