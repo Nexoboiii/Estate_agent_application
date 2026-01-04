@@ -3,3 +3,6 @@ Estate Agent Single-Page Application using React Js
 
 website: https://nexoboiii.github.io/Estate_agent_application/#/
 
+Npm run dev
+npm run test
+npm run deploy
